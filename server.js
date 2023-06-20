@@ -94,7 +94,7 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(3000, () => console.log("Server running on port 3000"));
+server.listen(3003, () => console.log("Server running on port 3000"));
 server.on('error', (error) => {
   console.error('Server Error:', error);
 });
